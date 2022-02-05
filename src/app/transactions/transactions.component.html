@@ -1,0 +1,47 @@
+<div>
+    <div class="navbar">
+        <img src="/assets/images/logo.PNG" class="img1">
+        <img src="/assets/images/sbiyono.png" class="img2">
+
+    </div>
+</div>
+<div class="div1Register">
+    <div class="head1">
+        <h3>Transaction History</h3>
+    </div>    
+    <table>
+        <thead>
+            <tr>
+                <td>Amount</td>&nbsp;&nbsp;&nbsp;
+                <td>Type</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let t of transactions">
+                <td>{{t.amount}}</td>&nbsp;&nbsp;&nbsp;
+                <td>{{t.type}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+
+
+<div id="footer" class="text-white bg-dark">
+    <div class="footer1">
+        <h5 class="head">Headquarters address</h5>
+        <p class="mb-0">State Bank Bhavan</p>
+        <p class="mb-0"> Madame Cama Road,</p>
+        <p class="mb-0">Nariman Point</p>
+        <p class="mb-0">Mumbai, Maharashtra 400021.</p>
+    </div>
+    <div class="footer2">
+        <h5 class="follow">Follow Us</h5>
+        <a href="https://www.facebook.com/StateBankOfIndia/"><i style="color: whitesmoke;"
+                class="fab me-3 fa-2x fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/theofficialsbi/?hl=en"><i style="color: whitesmoke;"
+                class="fab me-3 fa-2x fa-twitter-square"></i></a>
+        <a href="https://twitter.com/TheOfficialSBI?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i
+                style="color: whitesmoke;" class="fab me-3 fa-2x fa-instagram-square"></i></a>
+    </div>
+</div>

@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(240,240,240)
+}
+.img1{
+    width: 126px;
+    height: 40px;
+    margin-left: 6%;
+}
+.img2{
+        margin-top: -4%;
+        width: 132px;
+        height: 53px;
+        margin-left: 79%;
+}
+.div1Register{
+    width: 100%;
+    height: 552px;
+    float: left;
+    background-image: url('/assets/images/Capture4.PNG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 10%;
+    color: whitesmoke;
+
+}
+.invalid{
+    color: red;
+    margin-left: 39%;
+    font-size: 18px;
+}
+#Registerbutton{
+    margin-left: 43%;
+}
+.container{
+    margin-left: 27%;
+    margin-top: -4%;
+}
+#footer{
+    width: 100%;
+    height: 190px;
+    float: left;
+}
+.footer1{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-left: 17%;
+    padding-top: 2%;
+}
+.footer2{
+    width: 49%;
+    height: 100%;
+    float: left;
+    padding-top: 2%;
+}

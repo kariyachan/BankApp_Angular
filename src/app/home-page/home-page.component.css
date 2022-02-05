@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(240,240,240)
+}
+.img1{
+    width: 126px;
+    height: 40px;
+    margin-left: 6%;
+}
+.img2{
+        margin-top: -4%;
+        width: 132px;
+        height: 53px;
+        margin-left: 79%;
+}
+p{
+    margin-left: 45%;
+    margin-top: 4px;
+}
+a{
+    margin-left: 44%;
+}
+.div1Register{
+    width: 100%;
+    height: 531px;
+    float: left;
+    background-image: url('/assets/images/Capture6.PNG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 10%;
+    color: whitesmoke;
+}
+.deposite{
+    width: 30%;
+    height: 393px;
+    float: left;
+    margin-top: -3%;
+    margin-left: 9%;
+    padding-left: 8%;
+    background-image: url('/assets/images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+.withdraw{
+    width: 30%;
+    height: 393px;
+    float: left;
+    margin-top: -26.5%;
+    margin-left: 58%;
+    padding-left: 8%;
+    background-image: url('/assets/images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+.p1{
+    color: white;
+    font-size: 22px;
+    margin-left: 26%;
+}
+input{
+    width: 194%;
+    margin-left: -34%;
+}
+button{
+    margin-left: 32%;
+    margin-top: 9%;
+}
+#footer{
+    width: 100%;
+    height: 190px;
+    float: left;
+}
+.footer1{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-left: 0%;
+    padding-top: 2%;
+}
+.footer2{
+    width: 49%;
+    height: 100%;
+    float: left;
+    padding-top: 2%;
+    padding-left: 1%;
+}
+.follow{
+    margin-left: 40%;
+}
+.head{
+    margin-left: 45%;
+}
+.invalid{
+    color: red;
+    margin-left: 5%;
+    font-size: 13px;
+}
+#deletebutton{
+    margin-left: 2%;
+    margin-top: 20%;
+}
+.deleteComponent{
+    color: black;
+    margin-top: -1%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 38%;
+}
+.apply{
+    opacity:0.01
+}
+.p11{
+    float:left;
+    margin-left:0%;
+    margin-top: -2%;
+}
+#logoutbutton{
+    margin-left: 1%;
+    margin-top: 20%;
+    
+}
